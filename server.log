@@ -1,0 +1,110 @@
+2022-04-16 12:54:59.897  INFO 3912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 12:54:59.908  INFO 3912 --- [main] pringBootBeanDataVerificationApplication : Started SpringBootBeanDataVerificationApplication in 1.28 seconds (JVM running for 1.707)
+2022-04-16 12:55:08.370  INFO 11424 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 11424 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 12:55:08.372 DEBUG 11424 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:55:08.373  INFO 11424 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 12:55:08.953  INFO 11424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:55:08.959  INFO 11424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:55:08.960  INFO 11424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:55:09.030  INFO 11424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:55:09.030  INFO 11424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+2022-04-16 12:55:09.327  INFO 11424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 12:55:09.335  INFO 11424 --- [main] pringBootBeanDataVerificationApplication : Started SpringBootBeanDataVerificationApplication in 1.274 seconds (JVM running for 1.705)
+2022-04-16 12:55:17.906  INFO 1096 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 1096 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 12:55:17.908 DEBUG 1096 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:55:17.908  INFO 1096 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 12:55:18.493  INFO 1096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:55:18.500  INFO 1096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:55:18.500  INFO 1096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:55:18.572  INFO 1096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:55:18.572  INFO 1096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 627 ms
+2022-04-16 12:55:18.686  WARN 1096 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'student': Could not bind properties to 'Student' : prefix=student, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'student' to mao.spring_boot_bean_data_verification.data.Student
+2022-04-16 12:55:18.688  INFO 1096 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-16 12:55:18.698  INFO 1096 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 12:55:18.707 ERROR 1096 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'student' to mao.spring_boot_bean_data_verification.data.Student failed:
+
+    Property: student.name
+    Value: null
+    Reason: 不能为空
+
+
+Action:
+
+Update your application's configuration
+
+2022-04-16 12:56:27.834  INFO 11512 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 11512 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 12:56:27.836 DEBUG 11512 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:56:27.836  INFO 11512 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 12:56:28.428  INFO 11512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:56:28.435  INFO 11512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:56:28.435  INFO 11512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:56:28.504  INFO 11512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:56:28.504  INFO 11512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 631 ms
+2022-04-16 12:56:28.799  INFO 11512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 12:56:28.808  INFO 11512 --- [main] pringBootBeanDataVerificationApplication : Started SpringBootBeanDataVerificationApplication in 1.279 seconds (JVM running for 1.693)
+2022-04-16 12:56:48.760  INFO 11272 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 11272 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 12:56:48.762 DEBUG 11272 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:56:48.762  INFO 11272 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 12:56:49.353  INFO 11272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:56:49.360  INFO 11272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:56:49.360  INFO 11272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:56:49.429  INFO 11272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:56:49.430  INFO 11272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2022-04-16 12:56:49.548  WARN 11272 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'student': Could not bind properties to 'Student' : prefix=student, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'student' to mao.spring_boot_bean_data_verification.data.Student
+2022-04-16 12:56:49.551  INFO 11272 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-16 12:56:49.561  INFO 11272 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 12:56:49.573 ERROR 11272 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'student' to mao.spring_boot_bean_data_verification.data.Student failed:
+
+    Property: student.name
+    Value: 
+    Origin: class path resource [application.yml] - 46:8
+    Reason: 不能为空
+
+
+Action:
+
+Update your application's configuration
+
+2022-04-16 12:56:53.986  INFO 1164 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 1164 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 12:56:53.987 DEBUG 1164 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:56:53.988  INFO 1164 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 12:56:54.581  INFO 1164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:56:54.588  INFO 1164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:56:54.588  INFO 1164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:56:54.657  INFO 1164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:56:54.657  INFO 1164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2022-04-16 12:56:54.952  INFO 1164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 12:56:54.960  INFO 1164 --- [main] pringBootBeanDataVerificationApplication : Started SpringBootBeanDataVerificationApplication in 1.286 seconds (JVM running for 1.717)
+2022-04-16 13:00:14.218  INFO 1164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 13:00:14.218  INFO 1164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-16 13:00:14.219  INFO 1164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-16 13:03:26.069  INFO 2264 --- [main] pringBootBeanDataVerificationApplication : Starting SpringBootBeanDataVerificationApplication using Java 16.0.2 on mao with PID 2264 (H:\程序\大三下期\spring_boot_Bean数据校验\target\classes started by mao in H:\程序\大三下期\spring_boot_Bean数据校验)
+2022-04-16 13:03:26.071 DEBUG 2264 --- [main] pringBootBeanDataVerificationApplication : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 13:03:26.071  INFO 2264 --- [main] pringBootBeanDataVerificationApplication : The following 1 profile is active: "dev"
+2022-04-16 13:03:26.655  INFO 2264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 13:03:26.662  INFO 2264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 13:03:26.662  INFO 2264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 13:03:26.734  INFO 2264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 13:03:26.735  INFO 2264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2022-04-16 13:03:27.034  INFO 2264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 13:03:27.042  INFO 2264 --- [main] pringBootBeanDataVerificationApplication : Started SpringBootBeanDataVerificationApplication in 1.282 seconds (JVM running for 1.723)
